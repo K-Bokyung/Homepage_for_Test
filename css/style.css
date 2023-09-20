@@ -1,0 +1,47 @@
+/* Global */
+:root {
+  /* App Colors */
+  /* Background */
+
+  /* Colors */
+  --color-white: #ffffff;
+  --color-black: #020702;
+  --color-gray: #c6c6c6;
+  --color-green: #00754b;
+  --color-palegreen: #6a9a8b;
+  --color-lightgreen: #c8fcea;
+
+  /* Size */
+  --size-max-width: 1200px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+li {
+  list-style: none;
+}
