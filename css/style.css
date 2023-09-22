@@ -1,7 +1,11 @@
 /* Global */
 :root {
   /* App Colors */
-  /* Background */
+  --color-main: var(--color-palegreen);
+  --color-main-variant: var(--color-lightgreen);
+  --color-point: var(--color-green);
+  --color-point-varient: var(--color-gray);
+  --color-text: var(--color-black);
 
   /* Colors */
   --color-white: #ffffff;
@@ -11,8 +15,15 @@
   --color-palegreen: #6a9a8b;
   --color-lightgreen: #c8fcea;
 
+  /* Background */
+
   /* Size */
   --size-max-width: 1200px;
+
+  /* Font Size */
+  --font-big: 3rem;
+  --font-middle: 2rem;
+  --font-small: 0.5rem;
 }
 
 * {
@@ -45,3 +56,37 @@ a {
 li {
   list-style: none;
 }
+
+/* Header */
+.header {
+  background-color: var(--color-main);
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav__list {
+  display: flex;
+}
+
+/* Main */
+
+/* Home */
+
+/* About */
+
+/* Skills */
+
+/* Projects */
+
+/* Arrow up */
+
+/* Footer */
