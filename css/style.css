@@ -3,17 +3,19 @@
   /* App Colors */
   --color-main: var(--color-palegreen);
   --color-main-variant: var(--color-lightgreen);
-  --color-point: var(--color-green);
-  --color-point-varient: var(--color-gray);
+  --color-point: var(--color-paleorange);
+  --color-point-varient: var(--color-orange);
   --color-text: var(--color-black);
+  --color-hover: var(--color-black);
 
   /* Colors */
   --color-white: #ffffff;
   --color-black: #020702;
   --color-gray: #c6c6c6;
-  --color-green: #00754b;
+  --color-paleorange: #f3eada;
+  --color-orange: #ffa17a;
   --color-palegreen: #6a9a8b;
-  --color-lightgreen: #c8fcea;
+  --color-lightgreen: #d4e7d9;
 
   /* Background */
 
@@ -57,6 +59,11 @@ li {
   list-style: none;
 }
 
+button {
+  border: 0;
+  background-color: transparent;
+}
+
 /* Header */
 .header {
   background-color: var(--color-main);
@@ -82,6 +89,7 @@ li {
 .header_logo__title {
   font-size: var(--font-middle);
   font-weight: 600;
+  color: var(--color-gray);
 }
 
 .header__nav__list {
@@ -100,8 +108,48 @@ li {
 /* Main */
 
 /* Home */
+#home {
+  background-color: var(--color-main);
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+  padding: 3rem 5rem;
+  min-height: 57.5rem;
+}
+
+.home__title {
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.home__title--name {
+  color: var(--color-point);
+  margin: 1rem 0;
+  padding-bottom: 1rem;
+}
+
+.home__description {
+  padding-bottom: 3rem;
+}
+
+.home__contact {
+  background-color: var(--color-point);
+  padding: 0.8rem;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.home__contact:hover {
+  background-color: var(--color-hover);
+  outline: 1px solid var(--color-point);
+  color: var(--color-white);
+}
 
 /* About */
+#about {
+  background-color: var(--color-main-variant);
+  color: var(--color-text);
+}
 
 /* Skills */
 
