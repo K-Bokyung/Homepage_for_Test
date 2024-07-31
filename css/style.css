@@ -117,18 +117,18 @@ button {
   min-height: 57.5rem;
 }
 
-.home__title {
+.home__intro {
   font-weight: 600;
-  padding-bottom: 1rem;
+  padding: 1rem 0;
 }
 
-.home__title--name {
+.home__name {
   color: var(--color-point);
-  margin: 1rem 0;
-  padding-bottom: 1rem;
+  padding: 1rem 0;
 }
 
 .home__description {
+  padding: 1rem 0;
   padding-bottom: 3rem;
 }
 
@@ -149,6 +149,34 @@ button {
 #about {
   background-color: var(--color-main-variant);
   color: var(--color-text);
+  align-items: center;
+  padding: 3rem 5rem;
+  min-height: 57.5rem;
+}
+
+.about__title {
+  font-weight: 600;
+  padding: 40px 0;
+}
+
+.about__name {
+  color: var(--color-point-varient);
+  padding: 1rem 0;
+  font-size: var(--font-middle);
+}
+
+.about__job {
+  padding: 1rem 0;
+  font-weight: 300;
+  font-size: var(--font-middle);
+}
+
+.about__introduce {
+  padding: 1rem 0;
+}
+
+.about__description {
+  padding: 1rem 0;
 }
 
 /* Skills */
