@@ -1,35 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import './App.css';
 
-function App() {
-  const [count, setCount] = useState(0)
+// 각 페이지 import
+import NavbarPage from './pages/navbar.jsx';
+import IntroPage from './pages/intro.jsx';
+import PortfolioPage from './pages/portfolio.jsx';
+import AboutPage from './pages/about.jsx';
+import ContactPage from './pages/contact.jsx';
+import FooterPage from './pages/footer.jsx';
+import CopyrightPage from './pages/copyright.jsx';
 
+//---------------------------------------------------------------
+const App = () => {
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <div>
+      {/* <Routes>
+        <Route path='/' element={<NavbarPage />} />
+        <Route path='/' element={<IntroPage />} />
+        <Route path='/' element={<PortfolioPage />} />
+        <Route path='/' element={<AboutPage />} />
+        <Route path='/' element={<ContactPage />} />
+        <Route path='/' element={<FooterPage />} />
+        <Route path='/' element={<CopyrightPage />} />
+      </Routes> */}
+      <NavbarPage />
+      <IntroPage />
+      <PortfolioPage />
+      <AboutPage />
+      <ContactPage />
+      <FooterPage />
+      <CopyrightPage />
+    </div>
+  );
+};
 
-export default App
+export default App;
