@@ -1,6 +1,5 @@
 // import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import './App.css';
+// import { Routes, Route } from 'react-router-dom';
 
 // 각 페이지 import
 import NavbarPage from './pages/navbar.jsx';
@@ -15,15 +14,6 @@ import CopyrightPage from './pages/copyright.jsx';
 const App = () => {
   return (
     <div>
-      {/* <Routes>
-        <Route path='/' element={<NavbarPage />} />
-        <Route path='/' element={<IntroPage />} />
-        <Route path='/' element={<PortfolioPage />} />
-        <Route path='/' element={<AboutPage />} />
-        <Route path='/' element={<ContactPage />} />
-        <Route path='/' element={<FooterPage />} />
-        <Route path='/' element={<CopyrightPage />} />
-      </Routes> */}
       <NavbarPage />
       <IntroPage />
       <PortfolioPage />
