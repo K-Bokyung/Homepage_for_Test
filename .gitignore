@@ -8,7 +8,6 @@ lerna-debug.log*
 .pnpm-debug.log*
 
 bootstrap_template/
-package.json
 package-lock.json
 vite.config.js
 vite.svg
