@@ -10,7 +10,7 @@ import './assets/css/styles.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename='/Homepage_of_Deploy/'>
+    <BrowserRouter basename={import.meta.PUBLIC_URL}>
       <App />
     </BrowserRouter>
   </React.StrictMode>
