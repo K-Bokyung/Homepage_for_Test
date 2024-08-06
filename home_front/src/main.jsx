@@ -10,7 +10,7 @@ import './assets/css/styles.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename='https://k-bokyung.github.io/Homepage_of_Deploy/'>
+    <BrowserRouter basename='/Homepage_of_Deploy/'>
       <App />
     </BrowserRouter>
   </React.StrictMode>
