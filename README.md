@@ -3,7 +3,8 @@
 </br>
 
 ## 📜설명
-홈페이지 배포를 연습하기 위해 만든 홈페이지입니다.
+<p>홈페이지 배포를 연습하기 위해 만든 홈페이지입니다.</p>
+<p><b>Trainning for deploying a homepage.</b></p>
   
 </br>
 
@@ -13,7 +14,8 @@
 - **CSS**
 - **JavaScript**
 - **Express.js**
-- **NODE.js**
+- **Node.js**
+- **Vite**
 
 </br>
 
